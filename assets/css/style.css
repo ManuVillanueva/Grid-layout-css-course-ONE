@@ -18,12 +18,30 @@ body {
 }
 
 .encabezado {
+  align-items: center;
+  display: flex;
   grid-area: encabezado;
-}
-.contenido {
-  grid-area: contenido;
+  padding: 0 2rem;
 }
 
-.rodapie { 
+.menu__link {
+  color: #333333;
+  padding: .5rem 1rem;
+}
+
+.menu__link:hover .menu__link:active {
+  border-bottom: 2px solid #0073e6;
+}
+
+.contenido {
+  grid-area: contenido;
+  padding: 0 2rem;
+}
+
+footer { 
+  background: #fdfdfd;
+  color: #333333;
   grid-area: footer;
+  padding: 1rem;
+  text-align: center;
 }
